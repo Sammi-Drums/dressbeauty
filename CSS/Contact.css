@@ -1,0 +1,447 @@
+form{
+    margin-top: 4vh;
+    border: 2px solid rgb(153, 0, 255);
+    margin-left: 30vw;
+    margin-right: 30vw;
+    padding: 2vw;
+    height: 50vh;
+    box-shadow: inset 1px 1px 5px 2px rgb(153, 0, 255);
+}
+#submit{
+    margin-top: 12vh;
+    font-size: 2vw;
+    color: rgb(153, 0, 255);
+    background-color: transparent;
+    border-color: rgb(153, 0, 255);
+    border-radius: 2vw;
+    padding: .4vw;
+}
+#FName{
+    font-size: 1.5vw;
+    margin-bottom: 5vh;
+    margin-left: 2vw;
+    background-image: linear-gradient(to right, rgb(153, 0, 255), white, rgb(153, 0, 255));
+    border-color: rgb(153, 0, 255);
+    border-radius: .5vw;
+    color: white;
+}
+#SName{
+    font-size: 1.5vw;
+    margin-bottom: 5vh;
+    background-image: linear-gradient(to right, rgb(153, 0, 255), white, rgb(153, 0, 255));
+    border-color: rgb(153, 0, 255);
+    border-radius: .5vw;
+    color: white;
+}
+#me{
+    font-size: 1.5vw;
+    margin-bottom: 5vh;
+    margin-left: 6vw;
+    background-image: linear-gradient(to right, rgb(153, 0, 255), white, rgb(153, 0, 255));
+    border-color: rgb(153, 0, 255);
+    border-radius: .5vw;
+    color: white;
+}
+.container form label{
+    font-size: 2vw;
+    color: rgb(153, 0, 255);
+}
+/* &&&&&&&&&& Tablet &&&&&&&& */
+@media (max-width: 768px) {
+    form{
+        margin-top: 6vh;
+        border: 2px solid rgb(153, 0, 255);
+        margin-left: 20vw;
+        margin-right: 20vw;
+        padding-top: 9vw;
+        height: 90vh;
+        box-shadow: inset 1px 1px 5px 2px rgb(153, 0, 255);
+    }
+    #submit{
+        margin-top: 20vh;
+        font-size: 4vw;
+        color: rgb(153, 0, 255);
+        background-color: transparent;
+        border-color: rgb(153, 0, 255);
+        border-radius: 5vw;
+        padding: 1vw;
+    }
+    #FName{
+        font-size: 2.9vw;
+        margin-top: 7vh;
+        margin-bottom: 5vh;
+        margin-left: 2.9vw;
+        background-image: linear-gradient(to right, rgb(153, 0, 255), white, rgb(153, 0, 255));
+        border-color: rgb(153, 0, 255);
+        border-radius: .5vw;
+        color: white;
+    }
+    #SName{
+        font-size: 2.9vw;
+        margin-top: 7vh;
+        margin-bottom: 5vh;
+        background-image: linear-gradient(to right, rgb(153, 0, 255), white, rgb(153, 0, 255));
+        border-color: rgb(153, 0, 255);
+        border-radius: .5vw;
+        color: white;
+    }
+    #me{
+        font-size: 2.9vw;
+        margin-top: 7vh;
+        margin-bottom: 5vh;
+        margin-left: 10vw;
+        background-image: linear-gradient(to right, rgb(153, 0, 255), white, rgb(153, 0, 255));
+        border-color: rgb(153, 0, 255);
+        border-radius: .5vw;
+        color: white;
+    }
+    .container form label{
+        font-size: 3vw;
+        color: rgb(153, 0, 255);
+    }
+}
+/* ********************************** */
+@media (max-width: 425px) {
+    form{
+        margin-top: 6vh;
+        border: 2px solid rgb(153, 0, 255);
+        margin-left: 20vw;
+        margin-right: 20vw;
+        padding-top: 9vw;
+        height: 70vh;
+        box-shadow: inset 1px 1px 5px 2px rgb(153, 0, 255);
+    }
+    #submit{
+        margin-top: 15vh;
+        font-size: 4vw;
+        color: rgb(153, 0, 255);
+        background-color: transparent;
+        border-color: rgb(153, 0, 255);
+        border-radius: 5vw;
+        padding: 1vw;
+    }
+    #FName{
+        font-size: 2.9vw;
+        margin-bottom: 5vh;
+        margin-left: 2vw;
+        background-image: linear-gradient(to right, rgb(153, 0, 255), white, rgb(153, 0, 255));
+        border-color: rgb(153, 0, 255);
+        border-radius: .5vw;
+        color: white;
+    }
+    #SName{
+        font-size: 2.9vw;
+        margin-bottom: 5vh;
+        background-image: linear-gradient(to right, rgb(153, 0, 255), white, rgb(153, 0, 255));
+        border-color: rgb(153, 0, 255);
+        border-radius: .5vw;
+        color: white;
+    }
+    #me{
+        font-size: 2.9vw;
+        margin-bottom: 5vh;
+        margin-left: 9vw;
+        background-image: linear-gradient(to right, rgb(153, 0, 255), white, rgb(153, 0, 255));
+        border-color: rgb(153, 0, 255);
+        border-radius: .5vw;
+        color: white;
+    }
+    .container form label{
+        font-size: 3vw;
+        color: rgb(153, 0, 255);
+    }
+}
+/* &&&&&&&&&&& 375 &&&&&&&&&&&& */
+@media (max-width: 375px) {
+    form{
+        margin-top: 6vh;
+        border: 2px solid rgb(153, 0, 255);
+        margin-left: 20vw;
+        margin-right: 20vw;
+        padding-top: 9vw;
+        height: 75vh;
+        box-shadow: inset 1px 1px 5px 2px rgb(153, 0, 255);
+    }
+    #submit{
+        margin-top: 2vh;
+        font-size: 4vw;
+        color: rgb(153, 0, 255);
+        background-color: transparent;
+        border-color: rgb(153, 0, 255);
+        border-radius: 5vw;
+        padding: 1vw;
+    }
+    #FName{
+        font-size: 4vw;
+        margin-bottom: 5vh;
+        margin-left: 1vw;
+        background-image: linear-gradient(to right, rgb(153, 0, 255), white, rgb(153, 0, 255));
+        border-color: rgb(153, 0, 255);
+        border-radius: .5vw;
+        color: white;
+    }
+    #SName{
+        font-size: 4vw;
+        margin-bottom: 5vh;
+        background-image: linear-gradient(to right, rgb(153, 0, 255), white, rgb(153, 0, 255));
+        border-color: rgb(153, 0, 255);
+        border-radius: .5vw;
+        color: white;
+    }
+    #me{
+        font-size: 4vw;
+        margin-bottom: 5vh;
+        margin-left: 1vw;
+        background-image: linear-gradient(to right, rgb(153, 0, 255), white, rgb(153, 0, 255));
+        border-color: rgb(153, 0, 255);
+        border-radius: .5vw;
+        color: white;
+    }
+    .container form label{
+        font-size: 5.5vw;
+        color: rgb(153, 0, 255);
+    }
+}
+/* ************************************* */
+@media (max-width: 320px) {
+    form{
+        margin-top: 6vh;
+        border: 2px solid rgb(153, 0, 255);
+        margin-left: 20vw;
+        margin-right: 20vw;
+        padding-top: 9vw;
+        height: 70vh;
+        box-shadow: inset 1px 1px 5px 2px rgb(153, 0, 255);
+    }
+    #submit{
+        margin-top: 5.5vh;
+        font-size: 4vw;
+        color: rgb(153, 0, 255);
+        background-color: transparent;
+        border-color: rgb(153, 0, 255);
+        border-radius: 5vw;
+        padding: 1vw;
+    }
+    #FName{
+        font-size: 4vw;
+        margin-bottom: 5vh;
+        margin-left: 1vw;
+        background-image: linear-gradient(to right, rgb(153, 0, 255), white, rgb(153, 0, 255));
+        border-color: rgb(153, 0, 255);
+        border-radius: .5vw;
+        color: white;
+    }
+    #SName{
+        font-size: 4vw;
+        margin-bottom: 5vh;
+        background-image: linear-gradient(to right, rgb(153, 0, 255), white, rgb(153, 0, 255));
+        border-color: rgb(153, 0, 255);
+        border-radius: .5vw;
+        color: white;
+    }
+    #me{
+        font-size: 4vw;
+        margin-bottom: 5vh;
+        margin-left: 1vw;
+        background-image: linear-gradient(to right, rgb(153, 0, 255), white, rgb(153, 0, 255));
+        border-color: rgb(153, 0, 255);
+        border-radius: .5vw;
+        color: white;
+        
+    }
+    .container form label{
+        font-size: 5.5vw;
+        color: rgb(153, 0, 255);
+       
+    }
+}
+
+
+
+
+
+
+
+/* Footer Styling */
+.footerArea{
+    background-color: black;
+    height: 35vh;
+}
+.footer{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.section1 h2{
+    color: white;
+    padding-left: 6vw;
+    padding-top: 8vh;
+}
+.section1 p{
+    color: rgb(153, 0, 255);
+    font-size: 1.4vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 6vw;
+    padding-top: .4vh;
+}
+.section1 p:hover{
+    color: white;
+}
+.section1 h2:hover{
+    color: rgb(153, 0, 255);
+}
+.section2{
+    color: white;
+    margin-left: 45vw;
+}
+.section2 h2{
+    margin-top: 8vh;
+    margin-bottom: 2vh;
+}
+.section2 h2:hover{
+    color: rgb(153, 0, 255);
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.4vw;
+    margin-left: 2.5vw;
+    background-color: black;
+}
+.links a:hover{
+    color: rgb(153, 0, 255);
+    background-color: black;
+}
+.copywriteArea h1{
+    font-size: 1.4vw;
+    text-align: center;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+    color: #fff;
+}
+
+/* Footer Mobile Section */
+@media(max-width: 425px) {
+    .footer{
+        display: block;
+        margin-top: 10vh;
+    }
+    .footerArea{
+        height: 75vh;
+    }
+    .section1{
+        margin-left: 31vw;
+    }
+    .section1 h2{
+        font-size: 5vw;
+        margin-top: -7vh;
+    }
+    .section2{
+        margin-left: 42vw;
+        margin-top: -4.5vh;
+    }
+    .section2 h2{
+        font-size: 5vw;
+    }
+    .links a{
+        text-decoration: none;
+        color: white;
+        font-size: 4vw;
+        margin-left: 2.5vw;
+    }
+    .copywriteArea h1{
+        font-size: 3.4vw;
+        text-align: center;
+        margin-bottom: 1vh;
+        margin-top: 3.5vh;
+        color: #fff;
+    }
+    .section1 p{
+        color: blueviolet;
+        font-size: 4vw;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-left: 6vw;
+        padding-top: .4vh;
+    }
+}
+/* Footer Tablet */
+@media(max-width: 768px){
+    .footerArea{
+        height: 55vh;
+    }
+    .section1{
+        /* margin-left: 23vw; */
+    }
+    .section1 h2{
+        font-size: 3vw;
+    }
+    .section2{
+        /* margin-left: 35vw; */
+    }
+    .section2 h2{
+        font-size: 3vw;
+    }
+    .links a{
+        text-decoration: none;
+        color: white;
+        font-size: 2.5vw;
+        margin-left: 2.5vw;
+    }
+    .copywriteArea h1{
+        font-size: 2vw;
+        text-align: center;
+        margin-bottom: 1vh;
+        margin-top: 3.5vh;
+        color: #fff;
+    }
+    .section1 p{
+        color: blueviolet;
+        font-size: 2.5vw;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-left: 6vw;
+        padding-top: .4vh;
+    }
+}
+
+/* %%%%%%%%%%  320  %%%%%%%%%% */
+@media (max-width: 320px) {
+    .footerArea{
+        height: 60vh;
+    }
+    .section1 h2{
+        font-size: 6vw;
+        margin-left: -12vw;
+    }
+    .section1 p{
+        margin-left: -12vw;
+    }
+    .section2{
+        margin-left: 35vw;
+        margin-top: 2vh;
+    }
+    .section2 h2{
+        font-size: 4vw;
+        /* margin-left: 5vw; */
+        margin-top: 1vh;
+    }
+    .links a{
+        text-decoration: none;
+        color: white;
+        font-size: 4vw;
+        margin-left: 5.5vw;
+    }
+    .copywriteArea h1{
+        font-size: 4vw;
+        text-align: center;
+        margin-bottom: 0vh;
+        margin-top: 2.5vh;
+        color: #fff;
+    }
+    .section1 p{
+        color: blueviolet;
+        font-size: 5vw;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-left: 6vw;
+        padding-top: .4vh;
+    }
+}
+

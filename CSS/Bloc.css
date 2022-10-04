@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    /* border: 2px solid black; */
+    box-shadow: 1px 1px 5px 1px rgb(153, 0, 255);
+    padding: 1.5vw;
+    background-color: rgb(153, 0, 255);
+}
+.menu{
+    display: flex;
+    flex: 45%;
+    margin-left: 40vw;
+}
+
+.menu a{
+    padding: .1vw;
+    text-decoration: none;
+    color: white;
+    font-size: 2vw;
+    margin-left: 1.5vw;
+    margin-top: 1vh;
+}
+.menu a:hover{
+    background-color: white;
+    color: rgb(153, 0, 255);
+    border-radius: 4%;
+    padding-bottom: .1vh;
+}
+.logo{
+    flex: 30%;
+}
+.logo h1 a{
+    color: white;
+    margin-top: 0vh;
+    font-size: 3vw;
+    text-decoration: none;
+}
+.btn{
+    display: none;
+}
+
+.mobile{
+    display: none;
+}
+
+/* The body of the block */
+.cards{
+    display: flex;
+    flex: 100%;
+}
+.me{
+    flex: 33%;
+    border: 2px solid blueviolet;
+    margin-left: 1vw;
+}
+.me h2{
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    color: blueviolet;
+}
+.me p{
+    font-family: 'Trebuchet MS';
+    text-align: justify;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-bottom: 2vh;
+}
+.you{
+    flex: 33%;
+    border: 2px solid blueviolet;
+    margin-left: 1vw;
+}
+.you h2{
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    color: blueviolet;
+}
+.you p{
+    font-family: 'Trebuchet MS';
+    text-align: justify;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-bottom: 2vh;
+}
+.myself{
+    flex: 33%;
+    border: 2px solid blueviolet;
+    margin-left: 1vw;
+    margin-right: 1.5vw;
+}
+.myself h2{
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    color: blueviolet;
+}
+.myself p{
+    font-family: 'Trebuchet MS';
+    text-align: justify;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-bottom: 2vh;
+}
+
+@media(max-width: 680px) {
+    .appear{
+        display: none;
+    }
+    .mobile{
+        display: grid;
+        /* align-items: center; */
+        background-color: rgb(153, 0, 255);
+        box-shadow: 1px 1px 5px 11px rgb(153, 0, 255);
+    }
+    .mobile ul li{
+        list-style: none;
+        /* display: grid; */
+        gap: 3vh;
+    }
+    .mobile ul li a{
+        color: white;
+        text-decoration: none;
+        display: grid;
+        padding: 2vh;
+        margin-left: -7.5vw;
+    }
+    .mobile ul li a:hover{
+        background-color: white;
+        color: rgb(153, 0, 255);
+    }
+    .btn{
+        display: block;
+        margin-top: 1.3vh;
+        margin-right: 2vw;
+    }
+    .menu{
+        display: none;
+    }
+    .disappear{
+        display: none;
+    }
+    
+    .logo{
+        /* background-color: black; */
+        margin-top: -1vh;
+        margin-left: 1.5vw;
+    }
+}
+.active{
+    background-color: white;
+    color: rgb(153, 0, 255);
+}
+
+
+/* The Body */
+.bodyhead h1{
+    color: blueviolet;
+    font-size: 3vw;
+    margin-top: 3vh;
+    text-align: center;
+}
+
+/* Footer Styling */
+.footerArea{
+    background-color: black;
+    height: 35vh;
+}
+.footer{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.section1 h2{
+    color: white;
+    padding-left: 6vw;
+    padding-top: 8vh;
+}
+.section1 p{
+    color: rgb(153, 0, 255);
+    font-size: 1.4vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 6vw;
+    padding-top: .4vh;
+}
+.section1 p:hover{
+    color: white;
+}
+.section1 h2:hover{
+    color: rgb(153, 0, 255);
+}
+.section2{
+    color: white;
+    margin-left: 45vw;
+}
+.section2 h2{
+    margin-top: 8vh;
+    margin-bottom: 2vh;
+}
+.section2 h2:hover{
+    color: rgb(153, 0, 255);
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.4vw;
+    margin-left: 2.5vw;
+    background-color: black;
+}
+.links a:hover{
+    color: rgb(153, 0, 255);
+    background-color: black;
+}
+.copywriteArea h1{
+    font-size: 1.4vw;
+    text-align: center;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+    color: #fff;
+}
+
+/* Footer Mobile Section */
+@media(max-width: 425px) {
+    .footer{
+        display: block;
+    }
+    .footerArea{
+        height: 75vh;
+    }
+    .section1{
+        margin-left: 31vw;
+    }
+    .section1 h2{
+        font-size: 5vw;
+        margin-top: -7vh;
+    }
+    .section2{
+        margin-left: 42vw;
+        margin-top: -4.5vh;
+    }
+    .section2 h2{
+        font-size: 5vw;
+    }
+    .links a{
+        text-decoration: none;
+        color: white;
+        font-size: 4vw;
+        margin-left: 2.5vw;
+    }
+    .copywriteArea h1{
+        font-size: 3.4vw;
+        text-align: center;
+        margin-bottom: 1vh;
+        margin-top: 3.5vh;
+        color: #fff;
+    }
+    .section1 p{
+        color: blueviolet;
+        font-size: 4vw;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-left: 6vw;
+        padding-top: .4vh;
+    }
+}
+/* Footer Tablet */
+@media(max-width: 768px){
+    .footerArea{
+        height: 55vh;
+    }
+    .section1{
+        /* margin-left: 23vw; */
+    }
+    .section1 h2{
+        font-size: 3vw;
+    }
+    .section2{
+        /* margin-left: 35vw; */
+    }
+    .section2 h2{
+        font-size: 3vw;
+    }
+    .links a{
+        text-decoration: none;
+        color: white;
+        font-size: 2.5vw;
+        margin-left: 2.5vw;
+    }
+    .copywriteArea h1{
+        font-size: 2vw;
+        text-align: center;
+        margin-bottom: 1vh;
+        margin-top: 3.5vh;
+        color: #fff;
+    }
+    .section1 p{
+        color: blueviolet;
+        font-size: 2.5vw;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-left: 6vw;
+        padding-top: .4vh;
+    }
+}
+
+/* %%%%%%%%%%  320  %%%%%%%%%% */
+@media (max-width: 320px) {
+    .footerArea{
+        height: 60vh;
+    }
+    .section1 h2{
+        font-size: 6vw;
+        margin-left: -12vw;
+    }
+    .section1 p{
+        margin-left: -12vw;
+    }
+    .section2{
+        margin-left: 35vw;
+        margin-top: 2vh;
+    }
+    .section2 h2{
+        font-size: 4vw;
+        /* margin-left: 5vw; */
+        margin-top: 1vh;
+    }
+    .links a{
+        text-decoration: none;
+        color: white;
+        font-size: 4vw;
+        margin-left: 5.5vw;
+    }
+    .copywriteArea h1{
+        font-size: 4vw;
+        text-align: center;
+        margin-bottom: 0vh;
+        margin-top: 2.5vh;
+        color: #fff;
+    }
+    .section1 p{
+        color: blueviolet;
+        font-size: 5vw;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-left: 6vw;
+        padding-top: .4vh;
+    }
+}
